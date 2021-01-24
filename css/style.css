@@ -1,0 +1,160 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+.projects {
+	margin: 0 auto;
+	text-align: center;
+	width: 800px;
+}
+.logo {
+	background-color: DimGrey;
+	width: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 50px;
+	font-size: Cursive;
+	text-align: center;
+	vertical-align: center;
+	font-weight: bold;
+	z-index: 1002;
+}
+.hamburger {
+	position: fixed;
+	width: 20px;
+	right: 5px;
+	top: 0;
+	background-color: DimGrey;
+	z-index: 1001;
+}
+.hamburger div {
+	width: 100%;
+	height: 2px;
+	margin-top: 5px;
+	background: white;
+	border-radius: 2px;
+	border-color: white;
+	
+}
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	background-color: DimGrey;
+	z-index: 999;
+}
+nav ul {
+	list-style-type: none;
+	margin-top: 10px;
+	float: right;
+	margin-right: 100px;
+}
+nav ul li {
+	float: left;
+	margin-left: 10px;
+}
+nav ul li a {
+		color: lightgrey;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-decoration: none;
+		cursor: pointer;
+			font-family: Cursive;
+}
+nav ul li a:hover {
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+header {
+	margin: 50px 0 0 0;
+	padding: 0;
+	border: 0;
+	background-color: SlateGray;
+	width: 100%;
+	height: 400px;
+}
+.logo img {
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+header img {
+	width: 100%;
+	height: 500px;
+	padding: 0;
+	margin: 0;
+	display: none;
+	border: 0;
+}
+.featured {
+	background-color: LightGrey;
+	height: 400px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+.project {
+	float: left;
+	border: 5px solid white;
+	border-radius: 5px;
+	background-color: DarkGray;
+	background-image: url('../images/coding.png');
+	background-size: cover;
+	padding: 0;
+	margin: 10px 0 0 10px;
+	width: 200px;
+	height: 120px;
+	text-align: center;
+	vertical-align: bottom;
+	padding-top: 20px;
+}
+a {
+	text-decoration: none;
+}
+
+.project:nth-child(odd) {
+	background-image: url('../images/coding2.png');
+}
+.project:hover {
+opacity: 1;
+border: 5px solid Chocolate;
+}
+.project img {
+	width: 200px;
+	height: 120px;
+}
+.project a {
+	display: absolute;
+	font-size: 15px;
+	font-family: Cursive;
+	font-weight: bold;
+	top: 30px;
+	z-index: 1000;
+	color: white;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, .5);
+}
+#projects {
+	display: block;
+	width: 100%;
+	
+}
+
+#contact {
+	width: 100%;
+	height: 500px;
+	display: block;
+}
